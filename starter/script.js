@@ -12,21 +12,23 @@
 
 // Functions
 // *****************************************************************
-function logger() {
-  console.log(`My name is Kristin`);
-}
-// calling / running / invoking the function
-logger();
-logger();
-logger();
+// function logger() {
+//   console.log(`My name is Kristin`);
+// }
+// // calling / running / invoking the function
+// logger();
+// logger();
+// logger();
+// function fruitProcessor(apples, oranges) {
+//   console.log(apples, oranges);
+//   const juice = `Juice with ${apples} apples and ${oranges} oranges!`;
+//   return juice;
+// }
+// const appleJuice = fruitProcessor(5, 0);
+// console.log(appleJuice);
+// const appleOrangeJuice = fruitProcessor(2, 4);
+// console.log(appleOrangeJuice);
 
-function fruitProcessor(apples, oranges) {
-  console.log(apples, oranges);
-  const juice = `Juice with ${apples} apples and ${oranges} oranges!`;
-  return juice;
-}
-const appleJuice = fruitProcessor(5, 0);
-console.log(appleJuice);
+// Function Declarations vs Expectiations
+// ****************************************************************
 
-const appleOrangeJuice = fruitProcessor(2, 4);
-console.log(appleOrangeJuice);
