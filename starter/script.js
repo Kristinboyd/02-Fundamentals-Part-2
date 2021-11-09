@@ -31,4 +31,20 @@
 
 // Function Declarations vs Expectiations
 // ****************************************************************
+// an expression produce value
+// Function declaration example
+function calcAge1(birthYear) {
+  return 2021 - birthYear;
+}
+const age1 = calcAge1(1992);
+console.log(age1);
+// Function expression example
+const calcAge2 = function(birthYear) {
+  // using an annonamous function
+  return 2021 - birthYear;
+};
+const age2 = calcAge2(1992);
+console.log(age1, age2);
 
+// Arrow Functions
+// ****************************************************************
