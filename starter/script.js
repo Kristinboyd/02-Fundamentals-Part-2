@@ -117,43 +117,74 @@
 
 // Arrays
 // ***************************************************************
-const friend1 = 'Michael';
-const friend2 = 'Steven';
-const friend3 = 'Peter';
+// const friend1 = 'Michael';
+// const friend2 = 'Steven';
+// const friend3 = 'Peter';
+// //
+// const friends = ['Michael', 'Steven', 'Peter'];
+// console.log(friends);
+// //
+// // other way
+// const year = new Array(1992, 1991, 2003, 2010);
+// console.log(year);
+// //
+// console.log(friends[0]);
+// console.log(friends.length);
+// console.log(friends[friends.length - 1]); // gives you the last element in the array
+// //
+// friends[2] = 'Jay';
+// console.log(friends); // reassigns Peter with Jay
+// // We can always change things in an Array. It is muteable. Although we cannot replace the entire array.
+// //
+// const firstName = 'Kristin';
+// const kristin = [firstName, 'Boyd', 2021 - 1992, 'Software Developer', friends];
+// console.log(kristin);
+// console.log(kristin.length);
+// //
+// const calcAge = function(birthYear) {
+//   return 2037 - birthYear;
+// };
+// //
+// const years = [1990, 1967, 2002, 2010, 2018];
+// const age1 = calcAge(years[0]);
+// const age2 = calcAge(years[1]);
+// const age3 = calcAge(years[years.length - 1]);
+// console.log(age1, age2, age3);
+// //
+// const ages = [
+//   calcAge(years[0]),
+//   calcAge(years[1]),
+//   calcAge(years[years.length - 1])
+// ];
+// console.log(ages);
 
-const friends = ['Michael', 'Steven', 'Peter'];
-console.log(friends);
+// Basic Array Operations (Methods)
+// *********************************************************************************
+// add elements
+// const friends = ['Michael', 'Steven', 'Peter'];
+// const newLength = friends.push('Molly');
+// // push is a function that will add an element to the end of an array
+// console.log(friends);
+// console.log(newLength);
+// // unshift will put an element at the beginning of an array
+// friends.unshift('Karen');
+// console.log(friends);
+// // remove elements
+// friends.pop(); // no need to put any arguement, it will remove the last element in
+// const popped = friends.pop();
+// console.log(popped);
+// console.log(friends);
+// friends.shift(); // removes first element in the array
+// console.log(friends);
+// // method that tells us what position an element is
+// console.log(friends.indexOf('Steven'));
+// // method that tells us if an element is in the array
+// console.log(friends.includes('Steven'));
+// console.log(friends.includes('bob'));
+// //
+// if (friends.includes('Steven')) {
+//   console.log(`You have a friend named Steven!`);
+// }
 
-// other way
-const year = new Array(1992, 1991, 2003, 2010);
-console.log(year);
-
-console.log(friends[0]);
-console.log(friends.length);
-console.log(friends[friends.length - 1]); // gives you the last element in the array
-
-friends[2] = 'Jay';
-console.log(friends); // reassigns Peter with Jay
-// We can always change things in an Array. It is muteable. Although we cannot replace the entire array.
-
-const firstName = 'Kristin';
-const kristin = [firstName, 'Boyd', 2021 - 1992, 'Software Developer', friends];
-console.log(kristin);
-console.log(kristin.length);
-
-const calcAge = function(birthYear) {
-  return 2037 - birthYear;
-};
-
-const years = [1990, 1967, 2002, 2010, 2018];
-const age1 = calcAge(years[0]);
-const age2 = calcAge(years[1]);
-const age3 = calcAge(years[years.length - 1]);
-console.log(age1, age2, age3);
-
-const ages = [
-  calcAge(years[0]),
-  calcAge(years[1]),
-  calcAge(years[years.length - 1])
-];
-console.log(ages);
+// Coding Challenge #2
+// ********************************************************************************
