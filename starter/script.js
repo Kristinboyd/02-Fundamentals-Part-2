@@ -221,3 +221,43 @@
 //   friends: ['Molly', 'Megan', 'Averi']
 // };
 // console.log(kristin);
+
+// Dot vs Bracket Notation
+// ******************************************************************************
+// const kristin = {
+//   firstName: 'Kristin',
+//   lastName: 'Boyd',
+//   age: 2021 - 1992,
+//   job: 'Software Developer',
+//   friends: ['Molly', 'Megan', 'Averi']
+// };
+// //
+// console.log(kristin);
+// console.log(kristin.lastName); // dot notation
+// console.log(kristin['lastName']); // bracket notataion, we can use any expression
+// //
+// const nameKey = 'Name';
+// console.log(kristin['first' + nameKey]);
+// console.log(kristin['last' + nameKey]);
+// //
+// const interestedIn = prompt(
+//   'What do you want to know about Kristin? Choose between firstName, lastName, age, job, and friends'
+// );
+// console.log(kristin[interestedIn]);
+// //
+// if (kristin[interestedIn]) {
+//   console.log(kristin[interestedIn]);
+// } else {
+//   console.log(`Please select an option from the given list`);
+// }
+// // add new properties to the object
+// kristin.location = 'Seattle';
+// kristin['Instagram'] = '@kristin__boyd';
+// console.log(kristin);
+// //
+// // Kristin has three friends and her best friend is called Megan" 
+//
+// console.log(`${kristin.firstName} has ${kristin.friends.length} friends and her best friend is called ${kristin.friends[0]}`);
+
+// Object Methods 
+// ***********************************************************************************
