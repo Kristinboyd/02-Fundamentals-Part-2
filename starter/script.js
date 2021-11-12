@@ -201,5 +201,23 @@
 // const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 // console.log(totals);
 
-// Intro to Objects 
+// Intro to Objects
 // *******************************************************************************
+// example of old array
+// const kristinArray = [
+//   'Kristin',
+//   'Boyd',
+//   2021 - 1992,
+//   'Software Developer',
+//   ['Molly', 'Megan', 'Averi']
+// ];
+// // example of new object - used to group together variable that belong together
+// // the order does not matter
+// const kristin = {
+//   firstName: 'Kristin',
+//   lastName: 'Boyd',
+//   age: 2021 - 1992, // can put an expression here!
+//   occupation: 'Software Developer',
+//   friends: ['Molly', 'Megan', 'Averi']
+// };
+// console.log(kristin);
