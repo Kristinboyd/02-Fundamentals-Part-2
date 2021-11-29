@@ -255,11 +255,42 @@
 // kristin['Instagram'] = '@kristin__boyd';
 // console.log(kristin);
 // //
-// // Kristin has three friends and her best friend is called Megan" 
+// // Kristin has three friends and her best friend is called Megan"
 //
 // console.log(`${kristin.firstName} has ${kristin.friends.length} friends and her best friend is called ${kristin.friends[0]}`);
 
-// Object Methods 
+// Object Methods
 // *******************************************************************************
+// const kristin = {
+//   firstName: 'Kristin',
+//   lastName: 'Boyd',
+//   birthYear: 1992,
+//   job: 'Software Developer',
+//   friends: ['Molly', 'Megan', 'Averi'],
+//   hasDriversLicense: true,
+//   //
+//   // calcAge: function(birthYear) {
+//   //   return 2021 - birthYear;
+//   // }
+//   //
+//   // calcAge: function() {
+//   //   console.log('this: ', this);
+//   //   return 2021 - this.birthYear;
+//   // }
+//   //
+//   calcAge: function() {
+//     this.age = 2021 - this.birthYear;
+//     return this.age;
+//   },
+//   getSummary: function() {
+//     return `${this.firstName} is a ${this.calcAge()} year old ${this
+//       .job}, and she has ${this.hasDriversLicense
+//       ? 'a'
+//       : 'no'} drivers license`;
+//   }
+// };
+// console.log(kristin.calcAge());
+// console.log(kristin.getSummary());
 
-
+// Coding Challenge #3
+// *****************************************************************************
