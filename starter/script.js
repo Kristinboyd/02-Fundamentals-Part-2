@@ -260,4 +260,6 @@
 // console.log(`${kristin.firstName} has ${kristin.friends.length} friends and her best friend is called ${kristin.friends[0]}`);
 
 // Object Methods 
-// ***********************************************************************************
+// *******************************************************************************
+
+
